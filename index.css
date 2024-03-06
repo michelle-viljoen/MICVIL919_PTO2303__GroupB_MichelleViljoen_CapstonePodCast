@@ -1,0 +1,57 @@
+.loginPage, .homepage {
+    background-color: #727072;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logoImage {
+    align-self: center;
+    padding: 20px;
+  }
+  
+  .welcome {
+    display: flex;
+    align-self: center;
+    color: black;
+    font-family: fantasy;
+  }
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .loginButtons {
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    align-self: center;
+  }
+
+  .noAccount {
+    text-align: center;
+  }
+
+  .home__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
